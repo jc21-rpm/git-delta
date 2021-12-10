@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           git-delta
-Version:        0.10.2
+Version:        0.11.2
 Release:        1%{?dist}
 Summary:        Syntax-highlighting pager for git
 Group:          Applications/System
@@ -37,6 +37,9 @@ rm -rf %{buildroot}
 /usr/bin/delta
 
 %changelog
+* Fri Dec 10 2021 Jamie Curnow <jc@jc21.com> - 0.11.2-1
+- v0.11.2
+
 * Tue Nov 30 2021 Jamie Curnow <jc@jc21.com> - 0.10.2-1
 - v0.10.2
 
