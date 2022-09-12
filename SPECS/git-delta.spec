@@ -2,7 +2,7 @@
 
 Name:           git-delta
 Version:        0.14.0
-Release:        1%{?dist}
+Release:        1
 Summary:        Syntax-highlighting pager for git
 Group:          Applications/System
 License:        MIT
