@@ -2,7 +2,7 @@
 
 Name:           git-delta
 Version:        0.16.5
-Release:        1
+Release:        1%{?dist}
 Summary:        Syntax-highlighting pager for git
 Group:          Applications/System
 License:        MIT
@@ -37,6 +37,9 @@ rm -rf %{buildroot}
 /usr/bin/delta
 
 %changelog
+* Tue Jun 25 2024 Jamie Curnow <jc@jc21.com> - 0.17.0-1
+- v0.17.0
+
 * Tue Jun 6 2023 Jamie Curnow <jc@jc21.com> - 0.16.5-1
 - v0.16.5
 
