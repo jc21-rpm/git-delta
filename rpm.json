@@ -3,6 +3,6 @@
   "publish": {
     "PACKAGE": "git-delta",
     "GH_USER": "jc21-rpm",
-    "VERSION": "0.19.2"
+    "VERSION": "0.20.1"
   }
 }
